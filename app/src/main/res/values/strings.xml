@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">  BirthdayCard </string>
+    <string name="jan">Jan</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="apr">January</string>
+    <string name="may">January</string>
+    <string name="jun">January</string>
+    <string name="jul">January</string>
+    <string name="aug">January</string>
+    <string name="sep">January</string>
+    <string name="oct">January</string>
+    <string name="nov">January</string>
+    <string name="dec">January</string>
+</resources>
