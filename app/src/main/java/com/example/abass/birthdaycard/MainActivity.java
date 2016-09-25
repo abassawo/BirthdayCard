@@ -21,11 +21,8 @@ public class MainActivity extends AppCompatActivity {
         spinner = (Spinner) findViewById(R.id.month_spinner);
         spinner2 = (Spinner) findViewById(R.id.day_spinner);
         String[] months = getResources().getStringArray(R.array.string_array_months);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         adapter = new ArrayAdapter(this, R.layout.text_layout, months);
         spinner.setAdapter(adapter);
-
-
         days = makeArrayOfDays();
         ArrayAdapter dayAdapter = new ArrayAdapter(this, R.layout.text_layout, days);
         spinner2.setAdapter(dayAdapter);
