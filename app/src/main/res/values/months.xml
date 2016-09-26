@@ -2,12 +2,11 @@
 <resources>
     <string-array
         name="string_array_months">
-        <item
-            >@string/jan</item>
+        <item>@string/jan</item>
         <item
             >@string/feb</item>
         <item
-            >March</item>
+            >@string/mar</item>
         <item
             >April</item>
         <item

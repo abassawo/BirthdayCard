@@ -32,12 +32,23 @@
             android:layout_height="wrap_content"
             android:id="@+id/month_spinner"/>
 
+        <!--<ListView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/months_list_view"></ListView>-->
+
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/day_spinner"/>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:text="Show Cal Activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <ImageView
         android:id="@+id/birthday_card"

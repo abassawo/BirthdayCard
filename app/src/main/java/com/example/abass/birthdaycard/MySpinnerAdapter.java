@@ -4,6 +4,7 @@ import android.database.DataSetObserver;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.SpinnerAdapter;
 
 /**
@@ -35,8 +36,6 @@ public class MySpinnerAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View view, ViewGroup parent) {
-
-        //textVView.setText(
         return view;
     }
 }

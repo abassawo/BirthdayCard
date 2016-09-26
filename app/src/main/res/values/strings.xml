@@ -12,4 +12,11 @@
     <string name="oct">January</string>
     <string name="nov">January</string>
     <string name="dec">January</string>
+
+
+    <!--Language-specific stuff-->
+    <string name="hello_en">Hello!</string>
+    <string name="hello_sp">Hola!</string>
+    <string name="hello_fr">Bonjour</string>
+    <string name="catalan">Todo-fixme!</string>
 </resources>
